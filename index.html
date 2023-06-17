@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammad</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="hea">
+        <div class="ho">
+            moh
+        </div>
+        <section>
+            <img src="images/im1.jpg" width="600" height="450" alt="" id="images">
+            <!-- button for loop on images -->
+            <br>
+            <button onclick="myImages()">
+                Next image
+            </button>
+            
+            <button onclick="pervusImag()"> 
+                pervus image
+            </button>
+        </section>
+        <input type="email" id="mycheck" onload="mycheck()">
+        <button onclick="mycheck()">
+            instagram
+        </button>
+        <button onclick="login()">
+            log in
+        </button>
+        
+    </div>
+    <script src="script.js"></script>
+    <script src="scriptInsta.js">
+        
+    </script>
+    <script>
+        function op(){
+            window.open("https://www.instagram.com/");
+        }
+        function login(){
+            window.open("https://www.instagram.com/");
+            document.querySelector("._8-yf5 ").click();
+            //     horezantal  virtical
+            window.scrollTo(0, 300);
+        }
+        function mycheck(){
+            const tex = document.getElementById("mycheck");
+            tex.innerText = "mohammad";
+            tex.click();
+            // tex.setText("mohammad");
+            //tex.send_keys("");
+        }
+    </script>
+</body>
+</html>
